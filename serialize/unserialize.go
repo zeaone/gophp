@@ -200,7 +200,7 @@ func unMarshalArray(reader *bytes.Reader) (interface{}, error) {
 	if err != nil {
 		return nil, err
 	}
-
+/*
 	if indexLen == arrLen {
 		var slice []interface{}
 		for _, row := range val {
@@ -208,7 +208,7 @@ func unMarshalArray(reader *bytes.Reader) (interface{}, error) {
 		}
 		return slice, nil
 	}
-
+*/
 	return val, nil
 }
 
